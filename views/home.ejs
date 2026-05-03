@@ -1,0 +1,14 @@
+<% layout('layouts/main') %>
+<section style="max-width: 760px; margin: 3rem auto; font-family: Arial, sans-serif;">
+  <h1>WeeKidz Wholesale Marketplace</h1>
+  <p>Phase 0 bootstrap is ready.</p>
+  <ul>
+    <li>Express + EJS + ejs-mate configured</li>
+    <li>Static assets enabled via <code>public/</code></li>
+    <li>MariaDB connection health reflected below</li>
+  </ul>
+  <p>
+    Database status:
+    <strong><%= dbConnected ? 'Connected' : 'Not connected (check .env and MariaDB)' %></strong>
+  </p>
+</section>
